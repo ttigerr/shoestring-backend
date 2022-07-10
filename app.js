@@ -23,10 +23,10 @@ app.use(morgan("tiny"));
 // routes
 app.use("/users", UsersRouter);
 
-//db
+//database can be changed here !
 mongoose
   .connect(
-    "mongodb+srv://umer:umer@cluster0.p73sf.mongodb.net/?retryWrites=true&w=majority",
+    "mongodb+srv://shoestringait:shoestringait@cluster0.zxhdk.mongodb.net/?retryWrites=true&w=majority",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,

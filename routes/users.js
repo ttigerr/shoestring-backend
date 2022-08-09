@@ -8,6 +8,7 @@ const { userDb } = require("../model/userdb");
 // var DOMAIN = "sandbox8e72cf00df7c440e80184d74c9553685.mailgun.org";
 // var mailgun = require("mailgun-js")({ apiKey: API_KEY, domain: DOMAIN });
 
+
 // USER Signup ADDED
 router.post("/signup", (req, res) => {
   const data = req.body;
